@@ -1,0 +1,22 @@
+.collapsable-card .answer {
+  overflow: hidden;
+  height: 10vh;
+  transition: max-height 0.3s cubic-bezier(0.39, 0.58, 0.57, 1);
+  margin: 3vh 0;
+  border-bottom: 1.5px solid var(--off-grey);
+}
+
+.collapsable-card .answer.expanded {
+  max-height: 10vh;
+  padding-bottom: 1.5vh;
+}
+
+.collapsable-card .answer.collapsed {
+  max-height: 0vh;
+}
+
+@media screen and (max-width: 768px) {
+  .collapsable-card .answer.expanded {
+    padding-bottom: 8vh;
+  }
+}

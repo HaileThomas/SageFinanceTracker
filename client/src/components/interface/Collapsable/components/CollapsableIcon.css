@@ -1,0 +1,15 @@
+.collapsable-icon {
+  background-color: inherit;
+  border-radius: 15px;
+  border: 3px solid transparent;
+
+  font-size: 24px;
+  color: var(--black);
+  cursor: pointer;
+
+  transition: transform 0.5s ease;
+}
+
+.collapsable-icon.rotated {
+  transform: rotate(180deg);
+}

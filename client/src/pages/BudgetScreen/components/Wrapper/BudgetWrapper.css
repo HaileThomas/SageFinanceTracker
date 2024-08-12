@@ -1,0 +1,12 @@
+.budget-page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.budget-page-container.loading {
+  justify-content: center;
+}
+
+.budget-page-container > div {
+  margin-top: 3vh;
+}

@@ -1,0 +1,25 @@
+.wavy-footer-container {
+  background: url('./Wave.svg') no-repeat;
+  background-size: 167% 207px;
+  margin-bottom: -2px;
+  height: 207px;
+
+  position: absolute;
+  bottom: -20vh;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+  .wavy-footer-container {
+    background-size: 167% 101px;
+    height: 101px;
+  }
+
+  .wavy-footer-container {
+    bottom: 10vh;
+  }
+}

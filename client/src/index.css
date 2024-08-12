@@ -1,0 +1,11 @@
+@import './styles/fonts.css';
+@import './styles/text.css';
+@import './styles/colors.css';
+@import './styles/layout.css';
+
+body {
+  margin: 0;
+  width: 100vw;
+  background-color: var(--off-white);
+  overflow-x: hidden;
+}

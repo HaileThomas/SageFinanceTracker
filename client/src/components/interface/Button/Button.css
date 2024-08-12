@@ -1,0 +1,60 @@
+a {
+  cursor: pointer;
+}
+
+.full-button {
+  padding: 0.8em 1.6em !important;
+  font-size: 0.8em !important;
+}
+
+.skinny-button {
+  padding: 0.4em 1.6em;
+  font-size: 0.9em;
+}
+
+@media (min-width: 768px) {
+  .full-button {
+    padding: 1em 2em !important;
+    font-size: 1em !important;
+  }
+  .skinny-button {
+    padding: 0.5em 2em;
+  }
+}
+
+.solid-button {
+  height: auto !important;
+  cursor: pointer;
+
+  border-radius: 0.5em;
+  border: 3px solid transparent !important;
+  font-family: Poppins;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.solid-button.full-width {
+  width: 100%;
+}
+
+.solid-button.teal {
+  background-color: var(--teal) !important;
+  color: var(--green) !important;
+}
+
+.solid-button.teal:hover {
+  background-color: var(--off-teal) !important;
+  transition: 0.5s !important;
+}
+
+.solid-button.red {
+  background-color: var(--red);
+  color: var(--beige);
+}
+
+.solid-button.red:hover {
+  background-color: var(--off-red);
+  transition: 0.5s;
+}

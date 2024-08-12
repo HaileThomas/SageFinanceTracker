@@ -1,0 +1,38 @@
+.bank-card-container {
+  height: 28vh;
+  width: 325px;
+  border-radius: 30px;
+  margin: 0.5em 0.5em;
+  background-color: blue;
+  background: url('../../../../../assets/images/GreenGradient.png');
+  background-size: cover;
+}
+
+.bank-card-container.checking {
+  background: url('../../../../../assets/images/ForestGreenGradient.png');
+  background-size: cover;
+}
+
+.bank-card-container.savings {
+  background: url('../../../../../assets/images/TealGradient.png');
+  background-size: cover;
+}
+
+.bank-card-container p {
+  font-family: Abel;
+  color: var(--white);
+  margin-left: 20px;
+}
+
+.bank-card-name {
+  font-size: 1em;
+  opacity: 0.54;
+}
+
+.bank-card-balance {
+  font-size: 2em;
+}
+
+.bank-card-number {
+  font-size: 1em;
+}

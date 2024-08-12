@@ -1,0 +1,21 @@
+.wipe-text-container {
+  position: relative;
+}
+
+.text-on-top * {
+  color: var(--rose);
+}
+
+.text-on-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  overflow: hidden;
+}
+
+.text-on-bottom {
+  position: relative;
+  z-index: 0;
+}

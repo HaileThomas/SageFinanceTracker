@@ -1,0 +1,14 @@
+.benefits-section-container {
+  display: flex;
+  display: row;
+  justify-content: space-evenly;
+  margin: 5vh 0;
+}
+
+@media (max-width: 768px) {
+  .benefits-section-container {
+    flex-direction: column;
+    justify-content: normal;
+    margin: 5vh 5vw;
+  }
+}

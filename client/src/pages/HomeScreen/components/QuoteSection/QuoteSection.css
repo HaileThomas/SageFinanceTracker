@@ -1,0 +1,16 @@
+.quote-section-container {
+  width: 100vw;
+  height: auto;
+}
+
+.quote-section-icon {
+  display: flex;
+  font-size: 10vw;
+}
+
+.quote-icon {
+  color: var(--rose);
+  position: relative;
+  top: 4vh;
+  left: 16px;
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Deacon;
+  src: url(../assets/fonts/Deacon.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: DeaconLight;
+  src: url(../assets/fonts/Deacon-Light.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Abel;
+  src: url(../assets/fonts/Abel-Regular.ttf);
+  font-style: normal;
+}

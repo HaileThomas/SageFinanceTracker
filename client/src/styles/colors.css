@@ -1,0 +1,20 @@
+:root {
+  --black: #212121;
+  --white: floralwhite;
+  --navy: #2f3f4f;
+  --brown: #362323;
+  --green: #2f4f4f;
+  --teal: #63e6be;
+  --teal-green: #05ad86;
+  --red: #dc143c;
+  --rose: #e6638b;
+  --beige: #efe9d6;
+  --off-teal: #8fedd0;
+  --off-red: #eb1f48;
+  --off-white: #f3ede4;
+  --off-grey: #d3d3d3;
+}
+
+.background-green {
+  background-color: var(--green);
+}

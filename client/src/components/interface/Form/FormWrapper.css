@@ -1,0 +1,11 @@
+.form-wrapper {
+  width: 45vw;
+  min-height: 200px;
+  padding: 5vh 5vw;
+  background-color: var(--beige);
+  box-sizing: content-box;
+}
+
+.form-wrapper > p {
+  margin-bottom: 3vh;
+}

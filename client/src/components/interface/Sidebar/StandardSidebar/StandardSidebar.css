@@ -1,0 +1,18 @@
+.standard-sidebar-wrapper {
+  height: 100%;
+  width: 25vw;
+  display: flex;
+  background-color: var(--green);
+}
+
+.standard-sidebar-wrapper .standard-sidebar-content-wrapper {
+  margin: auto;
+  width: 80%;
+  height: 92%;
+}
+
+.standard-sidebar-navigation {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
